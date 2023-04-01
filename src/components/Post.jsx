@@ -1,9 +1,13 @@
 import React from 'react';
 import './Post.css'
 const Post = (props) => {
-  console.log(props.post);
+ 
 
-  const { banner, profile,name,date,time } = props.post;
+  const { banner, profile,name,date,time ,header} = props.post;
+
+  const addMark = props.addMark;
+const addBookmark = props.addBookmark;
+
   return (
     <div className='post'>
       <img src={banner} alt="" />
@@ -19,12 +23,14 @@ const Post = (props) => {
         <div>
           <p>{time} min read</p>
 
-          <button className='btn-bk'>
+          <button onClick={() => addBookmark(props.post)}   className='btn'>
             Bookmark
           </button>
         </div>
-      
+     
       </div>
+      <h3>{header}</h3>
+      <button onClick={() => addMark(props.post)} className='btn'>Mark as read</button>
     </div>
   );
 };

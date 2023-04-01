@@ -9,6 +9,7 @@
   text-align: center;
   border: 2px solid black;
   margin: 10px;
+  padding: 30px 0;
 }
 .profile img{
   width: 80px;
@@ -23,6 +24,6 @@
   display: flex;
   align-items: center;
 }
-.btn-bk{
+.btn{
   color: orangered;
 }
