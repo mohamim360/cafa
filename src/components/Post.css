@@ -1,0 +1,28 @@
+.post img{
+  width: 500px;
+  height: 200px;
+
+}
+.post{
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+}
+.profile img{
+  width: 80px;
+  height: 70px;
+  border-radius: 50px;
+}
+.profile{
+  display: flex;
+  justify-content: space-around;
+}
+.date{
+  display: flex;
+  align-items: center;
+}
+.btn-bk{
+  color: orangered;
+}
