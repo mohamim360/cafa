@@ -1,0 +1,10 @@
+.header {
+  height: 70px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header a{
+  margin-left: 30px;
+}
