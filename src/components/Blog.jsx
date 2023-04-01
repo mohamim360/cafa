@@ -50,7 +50,7 @@ const Blog = () => {
           )   
           
       }  
-      <Addblog></Addblog>
+      
      
       </div>
 
@@ -73,6 +73,7 @@ const Blog = () => {
         </div>
         
       </div>
+      <Addblog></Addblog>
     </div>
   );
 };
