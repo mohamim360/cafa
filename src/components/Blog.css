@@ -10,3 +10,13 @@
   background-color: rgba(0, 255, 255, 0.344);
   color: blueviolet;
 }
+.li{
+  list-style: none;
+  border: 1px solid firebrick;
+  padding: 40px;
+}
+.bookmark{
+  border: 1px solid firebrick;
+  padding: 10px;
+  margin: 5px;
+}

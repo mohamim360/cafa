@@ -40,13 +40,17 @@ const Blog = () => {
       }  
       </div>
 
-      <div className="bookmark">
+      <div className="mark">
         <div className="time">
         <h5>Spent time on read: {time} min</h5>
         </div>
 
-        <div>
-          <p>{mark.length}</p>
+        <div className="bookmark">
+          <p>Bookmarked Blogs: {mark.length}</p>
+          {
+            mark.map(m => <li className="li">{m.header}</li>)
+          }
+          
         </div>
         
       </div>
